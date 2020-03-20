@@ -1,0 +1,168 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+/*page signup.php*/
+	
+.background-img-signup{
+	background:linear-gradient(40deg,#002396,#17c8ff);
+	width:100%;
+	height:100%;
+}
+
+.signup-h1{
+	color:#009dff;
+	font-weight: bold;
+	font-family: 'Baloo Chettan 2', cursive;
+
+}
+.bold-p{
+	font-weight: bold;
+}
+.bigger-p{
+	font-size:20px;
+}
+.form-container{
+	background:white;
+	border-radius: 7px;
+	box-shadow:0 5px 20px 2px black;
+	padding: 40px 50px 20px;
+	margin-top:5em;
+	margin-bottom:10em;
+}
+
+/*page article.php*/
+
+.article-main-container{
+	margin-top:6em;
+	margin-bottom:1em;
+}
+
+.article-info{
+	position:relative;
+	left:20px;
+}
+.article-info p{
+	margin:1px;
+}
+
+.article-supp-container{
+	text-align:right;
+}
+.article-intr-container{
+	background:linear-gradient(140deg,#ff9500,#b33900);
+	border-radius: 7px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.article-img-container{
+	padding: 1px;
+	display:flex;
+	justify-content:stretch;
+	align-content:space-between;
+	flex-wrap: wrap;
+	flex-direction:row;
+	align-items:center;
+}
+
+.article-img-box{
+	margin:5px;
+	width:300px;
+	height:200px;
+}
+
+.article-img{
+	display:flex;
+	width: 100%;
+	height:100%;
+}
+
+
+.article-intr-title{
+	color:white;
+	font-weight: bold;
+	font-family: 'Baloo Chettan 2', cursive;
+
+}
+
+/*page upload.php add.php*/
+
+.background-img-add{
+	background:linear-gradient(140deg,#b100d9,#2d056e);
+	width:100%;
+	height:100%;
+}
+
+.add-title{
+	color:#4c09b8;
+	font-weight: bold;
+	font-family: 'Baloo Chettan 2', cursive;
+}
+
+/*index.php view.php*/
+.index-deco-background{
+	background:linear-gradient(20deg,#ff2453,#4a040b);
+	padding-top:120px;
+	padding-bottom:80px;
+}
+.index-deco-title{
+	color:white;
+	font-weight: bold;
+	font-family: 'Baloo Chettan 2', cursive;
+	text-align:center;
+
+}
+
+.index-main-container{
+	margin-top:1em;
+	margin-bottom:1em;
+	padding: 5px;
+	display:flex;
+	justify-content:stretch;
+	align-content:space-between;
+	flex-wrap:wrap;
+	flex-direction:row;
+	font-size:20px;
+}
+.index-flex-box{
+	background:#f0f0f0;
+	border-radius:7px;
+	margin:25px 5px;
+	text-align: center;
+	width:280px;
+	height:220px;
+}
+
+.index-flex-box:hover{
+	opacity:0.8;
+}
+
+.index-img-box{
+	margin:5px;
+	width:270px;
+	height:170px;
+}
+
+.index-img{
+	display:flex;
+	width: 100%;
+	height:100%;
+}
+
+/*header*/
+.navbar-shadow{
+	box-shadow: 0px 0px 0px 2px orange;
+}
+.bg-dark-gray-blue{
+	background:#0d1f30;
+}
+/*footer*/
+.offwhite-p{
+	color:#bbc0c7;
+}
+.bg-darker-gray-blue{
+	background:#09101a;
+}
+.bg-darkerer{
+	background:#03060a;
+}
